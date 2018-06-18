@@ -1,0 +1,61 @@
+button {
+    display: block;
+    width: 7em;
+    height: 3em;
+    color: black;
+    background: linear-gradient(white, deeppink);
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.button {
+
+    padding: 25px 25px 80px;
+    width: 50%;
+    border: solid 2px;
+    border-bottom-color: deeppink;
+    border-radius: 5px;
+    margin: auto auto 2rem;
+
+}
+
+body {
+
+    border-radius: 5px;
+    border: 5px solid black;
+    border-bottom-color: deeppink;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    height: calc(100vh - 30px);
+
+}
+
+.doggo-container {
+    margin-top: auto;
+    align-self: center;
+
+}
+
+.heart {
+    opacity: 0;
+    animation: blinker 1s linear 2;
+
+    width: 50px;
+    position: absolute;
+}
+@keyframes blinker {
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+}
+
+.hidden{
+    display: none;
+}
